@@ -1,14 +1,13 @@
 package com.tof.app;
 
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
-
-import static org.junit.Assert.assertTrue;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class ProgramTest {
 
     @Test
     public void testApp() {
-        assertTrue(true);
+        assertThat(true).isTrue();
     }
 }
